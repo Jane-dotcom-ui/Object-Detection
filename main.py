@@ -6,7 +6,7 @@ import os
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
 # Load the video
-cap = cv2.VideoCapture('input_video.mp4')
+cap = cv2.VideoCapture('10_min_Video.mp4')
 
 output_dir = 'objects'
 if not os.path.exists(output_dir):
